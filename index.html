@@ -9,12 +9,14 @@
     <h1 id="test">js ex</h1>
     <script>
       var arr = [];
+      arr.sort()
       for(var i = 0;i < 5; i++){
         var cognome = prompt('dimmi il tuo cognome');
         arr.push(cognome);
-
+        var elem = arr[i];
+        console.log('position' +' '+ (i + 1) +' '+ elem );
       }
-      console.log(arr.sort());
+      // console.log(arr.sort());
     </script>
   </body>
 </html>
